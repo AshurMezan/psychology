@@ -1,0 +1,65 @@
+header {
+    background-color: $color_gray;
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner {
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.nav_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1390px;
+    width: 100%;
+
+    .nav_conteiner {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+.nav_logo {
+    width: 90px;
+    height: 90px;
+}
+
+.nav_flex__list {
+    border: 2px solid $color_white;
+    border-radius: 50px;
+    padding: 10px 20px;
+    color: $color_white;
+
+    ul {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        gap: 80px;
+    }
+}
+
+.nav_flex__registration {
+
+    button {
+
+        padding: 10px 20px;
+        border: 2px solid $color_white;
+        border-radius: 50px;
+        background-color: $color_gray;
+        color: $color_white;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-block;
+
+        &:hover {
+            transform: scale(1.1);
+            color: $accent;
+        }
+    }
+}

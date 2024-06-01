@@ -1,0 +1,146 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+  margin: 0;
+}
+
+ul[role=list], ol[role=list] {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+img, picture {
+  max-width: 100%;
+  display: block;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+ul, ol, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  background-color: #93AEB9;
+  height: 130px;
+  display: flex;
+  align-items: center;
+}
+
+.conteiner {
+  max-width: 1600px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.nav_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1390px;
+  width: 100%;
+}
+.nav_flex .nav_conteiner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav_logo {
+  width: 90px;
+  height: 90px;
+}
+
+.nav_flex__list {
+  border: 2px solid #FFFFFF;
+  border-radius: 50px;
+  padding: 10px 20px;
+  color: #FFFFFF;
+}
+.nav_flex__list ul {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  gap: 80px;
+}
+
+.nav_flex__registration button {
+  padding: 10px 20px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50px;
+  background-color: #93AEB9;
+  color: #FFFFFF;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+.nav_flex__registration button:hover {
+  transform: scale(1.1);
+  color: #D4C17F;
+}
+
+.section_one {
+  width: 100%;
+  background-image: url("/img/section1/section0ne.png");
+  height: 970px;
+}
+
+.section_one_conteiner__h1 {
+  padding-top: 370px;
+  padding-left: 370px;
+}
+.section_one_conteiner__h1 h1 {
+  color: #255765;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+a {
+  font-family: "Comfortaa", sans-serif;
+  display: inline-block;
+  color: #FFFFFF;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+a:hover {
+  transform: scale(1.1);
+  color: #D4C17F;
+}
+
+main {
+  background-color: #F2E6D1;
+}/*# sourceMappingURL=main.css.map */
