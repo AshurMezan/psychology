@@ -112,7 +112,7 @@ header {
 
 .section_one {
   width: 100%;
-  background-image: url("/img/section1/section0ne.png");
+  background-image: url("../img/section0ne/section0ne.png");
   height: 970px;
 }
 
