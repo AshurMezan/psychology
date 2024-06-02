@@ -112,8 +112,10 @@ header {
 
 .section_one {
   width: 100%;
-  background-image: url("../img/section0ne/section0ne.png");
-  height: 970px;
+  background-image: url("../img/sectionMain/section0ne.png");
+  height: 790px;
+  background-color: #F2E6D1;
+  background-repeat: no-repeat;
 }
 
 .section_one_conteiner__h1 {
@@ -125,6 +127,17 @@ header {
   font-size: 72px;
   font-weight: 700;
   line-height: 70px;
+  width: 100%;
+}
+
+.section_two {
+  background-color: #F2E6D1;
+  width: 100%;
+  height: 1500px;
+  background-image: url("../img/sectionMain/sectionTwo.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  margin-top: -40px;
 }
 
 a {
@@ -139,8 +152,4 @@ a {
 a:hover {
   transform: scale(1.1);
   color: #D4C17F;
-}
-
-main {
-  background-color: #F2E6D1;
 }/*# sourceMappingURL=main.css.map */
