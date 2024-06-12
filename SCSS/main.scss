@@ -1,6 +1,7 @@
 // Базовые стили
 @import "base/reset";
 @import "base/var";
+@import "base/base";
 // Блоки
 @import "block/header";
 @import "block/section_one";
@@ -18,6 +19,4 @@ a {
     color: $accent;
 }}
 
-main {
-    // position: relative;
-}
+
