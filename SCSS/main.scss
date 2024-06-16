@@ -6,6 +6,8 @@
 @import "block/header";
 @import "block/section_one";
 @import "block/section_two";
+@import "block/section_three";
+@import "block/section_four";
 
 a {
     font-family: $font-main;
@@ -19,7 +21,6 @@ a {
     transform: scale(1.1);
     color: $accent;
 }
-
 }
 
 

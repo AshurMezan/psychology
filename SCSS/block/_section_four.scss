@@ -1,0 +1,104 @@
+.emptiness {
+    width: 100%;
+    height: 55px;
+    background-color: $color_fon;
+}
+.section_four {
+    width: 100%;
+    background-image: url('../img/sectionMain/sectionFour/imgForSectionFour.png');
+    height: 1015px;
+    background-color: $color_fon;
+    background-repeat: no-repeat;
+}
+.section_four__container {
+    margin:  0 auto;
+    max-width: 1155px;
+    padding-top: 150px;
+}
+.section_four__content_one {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    color: $color_white;
+    font-family: $font_main;
+    margin: 0 auto;
+    max-width: 720px;
+}
+.section_four_title {
+    font-size: 58px;
+    font-family: $font_h;
+    color: $color_footer;
+    text-transform: uppercase;
+    margin-top: 60px;
+    text-align: center;
+    
+    span {
+        color: $color_white;
+    }
+
+}
+.section_four__container_for_slider {
+    max-width: 1260px;
+    background-color: $color_white;
+    height: 260px;
+    margin: 0 auto;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+
+    button {
+        width: 40px;
+        height: 40px;
+        background-color: $color_white;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        &:hover {
+            background-color: #B5B8B1;
+            transform: translateX(2px);
+        }
+        &:active {
+            transform: translateX(-2px); 
+        }
+    }
+}
+.btn_left {
+    background-image: url("../img/sectionMain/sectionTwo/left.png");
+    background-repeat: no-repeat; // Убираем повторение /
+    background-position: center; // Выравниваем по центру /
+    background-size: contain; // Устанавливаем размер изображения /
+}
+.btn_right {
+    background-image: url("../img/sectionMain/sectionTwo/right.png");
+    background-repeat: no-repeat; // Убираем повторение /
+    background-position: center; // Выравниваем по центру /
+    background-size: contain; // Устанавливаем размер изображения /
+}
+
+.section_four__slaider_text {
+    font-family: $font_h;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 800;
+    color: #2E5C6A;
+}
+
+.section_four__slider {
+    display: flex;
+    column-gap: 20px;
+}
+.container_for_text_on_section_four {
+    margin: 0 auto;
+    color: $color_white;
+    font-family: $font_main;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    font-weight: 700;
+    max-width: 1132px;
+    margin-top: 80px;
+}
