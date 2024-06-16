@@ -1,0 +1,129 @@
+.section_two {
+    background-image: url('../img/sectionMain/sectionTwo/imageSectionTwo.png');
+    width: 100%;
+    height: 1115px;
+    background-repeat: no-repeat;
+    background-color: $color_fon;
+    
+}
+.flex_container_content_on_section_two {
+    margin-left: 240px;
+    max-width: 935px;
+    max-height: 410px;
+
+    h2 {
+        font-size: 137px;
+        text-transform: uppercase;
+        font-family: $font_h;
+        font-weight: 700;
+        color: $color_footer;
+        margin: 0;
+        padding: 0;
+        line-height: 130px;
+    }
+    .flex_container_content_on_section_two__conten_one {
+        font-size: 66px;
+        color: $color_footer;
+        text-transform: uppercase;
+        line-height: 84px;
+        
+        span {
+           color: $color_white;
+        }
+    }
+
+    div {
+        display: flex;
+        align-items: flex-end;
+        gap: 40px;
+    }
+}
+
+.flex_container_content_on_section_two__conten_two {
+    font-family: $font_main;
+    color: $color_white;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+.flex_container_content_on_section_two__title {
+    width: 100%;
+    color: $color_white;
+    font-size: 36px;
+    margin-top: 45px;
+    font-family: $font_h;
+    font-weight: 700;
+    line-height: 42px;
+
+}
+
+.container_for_slaider {
+    margin: 0 auto;
+    max-width: 1260px;
+    height: 260px;
+    background-color: $color_white;
+    border-radius: 20px;
+    margin-top: 70px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .sclaider {
+        display: flex;
+    align-items: center;
+    gap: 20px;
+    }
+
+    button {
+        width: 40px;
+        height: 40px;
+        background-color: $color_white;
+        border-radius: 50%;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        &:hover {
+            background-color: #B5B8B1;
+            transform: translateX(2px);
+        }
+        &:active {
+            transform: translateX(-2px); 
+        }
+    }
+
+    .button_left {
+        background-image: url("../img/sectionMain/sectionTwo/left.png");
+        background-repeat: no-repeat; // Убираем повторение /
+        background-position: center; // Выравниваем по центру /
+        background-size: contain; // Устанавливаем размер изображения /
+    }
+    .button_right {
+        background-image: url("../img/sectionMain/sectionTwo/right.png");
+        background-repeat: no-repeat; // Убираем повторение /
+        background-position: center; // Выравниваем по центру /
+        background-size: contain; // Устанавливаем размер изображения /
+    }
+
+    .sclaider_text {
+        font-family: $font_h;
+        font-size: 36px;
+        line-height: 42px;
+        font-weight: 800;
+        color: #2E5C6A;
+    }
+
+
+}
+
+.last_container_for_section_two {
+    margin: 0 auto;
+    max-width: 1000px;
+    font-family: $font_main;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+    color: $color_white;
+    text-align: center;
+    margin-top: 70px;
+}

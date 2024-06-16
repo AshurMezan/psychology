@@ -5,6 +5,7 @@
 // Блоки
 @import "block/header";
 @import "block/section_one";
+@import "block/section_two";
 
 a {
     font-family: $font-main;
@@ -17,6 +18,8 @@ a {
 &:hover {
     transform: scale(1.1);
     color: $accent;
-}}
+}
+
+}
 
 
