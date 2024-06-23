@@ -44,13 +44,13 @@
             <div class="nav_flex__list">
               <ul>
                 <li><a href="#">Главная</a></li>
-                <li><a href="#">Услуги</a></li>
-                <li><a href="#">Специалисты</a></li>
+                <li><a href="engineering works.html">Услуги</a></li>
+                <li><a href="engineering works.html">Специалисты</a></li>
               </ul>
             </div>
           </div>
           <div class="nav_flex__registration">
-            <button>Записаться</button>
+            <button><a href="#popup" class="popup-link">Записаться</a></button>
           </div>
         </nav>
       </div>
@@ -301,24 +301,74 @@
         <div class="footer_container__for_addres_and_list">
           <div class="footer_container__for_list">
             <ul>
-              <li>Главная</li>
-              <li>Услуги</li>
-              <li>Специалисты</li>
+              <li><a href="">Главная</a></li>
+              <li><a href="">Услуги</a></li>
+              <li><a href="">Специалисты</a></li>
             </ul>
-            <button>Записаться</button>
+            <button><a href="#popup" class="popup-link">Записаться</a></button>
           </div>
           <div class="footer_container__for_addres">
             <ul>
-                <li>Адрес ул. ​Широтная, 173/6</li>
-                <li>+7 (3452) 533-278</li>
-                <li>+7 (952) 674-12-43</li>
-                <li>prilensk@mail.ru</li>
+              <li>Адрес ул. ​Широтная, 173/6</li>
+              <li>+7 (3452) 533-278</li>
+              <li>+7 (952) 674-12-43</li>
+              <li>prilensk@mail.ru</li>
             </ul>
           </div>
-
         </div>
       </div>
     </footer>
+    <div id="popup" class="popup">
+      <div class="popup__body">
+        <div class="popup__contetnt">
+          <a href="" class="popup__close close-popup">X</a>
+          <div class="container_for_registration">
+            <h2>Записаться на консультацию</h2>
+            <form action="/submit" method="POST" class="registration">
+              <div class="form-group__registration">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  required
+                  placeholder="Ваше имя*"
+                />
+              </div>
+              <div class="form-group__registration">
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  required
+                  placeholder="Ваш телефон*"
+                />
+              </div>
+              <div class="form-group__registration">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="Ваш email"
+                />
+              </div>
+              <div class="form-group__registration">
+                <textarea
+                  id="comment"
+                  name="comment"
+                  rows="4"
+                  placeholder="Комментарий"
+                ></textarea>
+              </div>
+              <div class="section_five__container_for_button">
+                <button class="form_button" type="submit">Отправить</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>

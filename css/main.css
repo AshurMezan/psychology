@@ -665,7 +665,7 @@ footer ul li {
   border-radius: 20px;
   background-color: #255765;
   padding: 10px;
-  margin-top: 90px;
+  margin-top: 50px;
   font-family: "Comfortaa", sans-serif;
   border: 2px solid #e0e0e0;
   color: #e0e0e0;
@@ -673,8 +673,12 @@ footer ul li {
   font-weight: 700;
   line-height: 22px;
   cursor: pointer;
+  transition: all 0.3s ease;
+  display: inline-block;
 }
 .footer_container__for_list button:hover {
+  transform: scale(1.1);
+  color: #D4C17F;
   cursor: pointer;
 }
 .footer_container__for_list button:active {
@@ -685,6 +689,90 @@ footer ul li {
   display: flex;
   -moz-column-gap: 220px;
        column-gap: 220px;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.3s ease 0s;
+}
+
+.popup__body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.popup__contetnt {
+  color: #000;
+  background-color: #F2E6D1;
+  max-width: 1070px;
+  height: auto;
+  border-radius: 20px;
+  padding: 30px;
+  position: relative;
+  transition: all 0.8s ease 0s;
+  opacity: 0;
+  transform: perspective(600px) translate(0px, -100%) rotate(45deg);
+}
+
+.popup__close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+  color: red;
+}
+
+.popup__title {
+  font-size: 40px;
+  margin: 0 0 1em 0;
+}
+
+.popup.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup.open .popup__contetnt {
+  transform: perspective(600px) translate(0px, 0%) rotate(0deg);
+  opacity: 1;
+}
+
+.container_for_registration {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 660px;
+}
+.container_for_registration h2 {
+  margin-top: 60px;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #255765;
+  line-height: 31px;
+  text-transform: uppercase;
+}
+
+.registration {
+  margin-top: 50px;
+}
+
+.form-group__registration {
+  margin-bottom: 15px;
+  border-radius: 20px;
+  max-width: 660px;
 }
 
 a {

@@ -54,7 +54,7 @@ footer {
         border-radius: 20px;
         background-color: #255765;
         padding: 10px;
-        margin-top: 90px;
+        margin-top: 50px;
         font-family: $font_main;
         border: 2px solid #e0e0e0;
         color: #e0e0e0;
@@ -62,7 +62,11 @@ footer {
         font-weight: 700;
         line-height: 22px;
         cursor: pointer;
+        transition: all 0.3s ease;
+        display: inline-block;
         &:hover {
+          transform: scale(1.1);
+          color: $accent;
         cursor: pointer;
         }
         &:active {
