@@ -1,0 +1,77 @@
+footer {
+  background-color: #255765;
+  height: 430px;
+
+  button {
+    font-family: $font_main;
+  }
+
+  ul {
+    li {
+      list-style-type: none;
+      font-family: $font_main;
+      color: #e0e0e0;
+      font-size: 20px;
+      line-height: 22px;
+      font-weight: 700;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+.container_for_footer {
+  display: flex;
+  padding-top: 44px;
+  max-width: 1200px;
+  max-height: 340px;
+  margin: 0 auto;
+  border-bottom: 1px solid $color_white;
+  justify-content: space-between;
+}
+.footer_container__for_logo {
+  border-right: 1px solid $color_white;
+  max-width: 300px;
+  padding-bottom: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  span {
+    font-family: $font_h;
+    display: block;
+    color: $color_white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 235px;
+    margin-top: 25px;
+    text-align: center;
+  }
+}
+
+.footer_container__for_list {
+    button{
+        border-radius: 20px;
+        background-color: #255765;
+        padding: 10px;
+        margin-top: 90px;
+        font-family: $font_main;
+        border: 2px solid #e0e0e0;
+        color: #e0e0e0;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 22px;
+        cursor: pointer;
+        &:hover {
+        cursor: pointer;
+        }
+        &:active {
+            transform: translateX(-2px);
+        }
+    }
+  
+}
+.footer_container__for_addres_and_list {
+    display: flex;
+    column-gap: 220px;
+}
