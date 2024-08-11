@@ -59,6 +59,10 @@ ul, ol, li {
   width: 100%;
 }
 
+body {
+  min-width: 1600px;
+}
+
 header {
   background-color: #93AEB9;
   height: 130px;
@@ -325,6 +329,7 @@ header button {
   align-content: center;
   flex-wrap: wrap;
   justify-content: center;
+  position: relative;
 }
 .container_for_slaider .sclaider {
   display: flex;
@@ -365,6 +370,7 @@ header button {
   line-height: 42px;
   font-weight: 800;
   color: #2E5C6A;
+  padding: 15px;
 }
 
 .last_container_for_section_two {
@@ -453,7 +459,7 @@ header button {
   font-family: "Roboto", sans-serif;
   color: #255765;
   text-transform: uppercase;
-  margin-top: 60px;
+  margin-top: 50px;
   text-align: center;
 }
 .section_four_title span {
@@ -470,6 +476,7 @@ header button {
   flex-wrap: wrap;
   align-content: center;
   justify-content: center;
+  position: relative;
 }
 .section_four__container_for_slider button {
   width: 40px;
@@ -502,12 +509,25 @@ header button {
   background-size: contain;
 }
 
+.btn_left_for_slider {
+  position: absolute;
+  left: -45px;
+  top: 110px;
+}
+
+.btn_right_for_slider {
+  position: absolute;
+  right: -45px;
+  top: 110px;
+}
+
 .section_four__slaider_text {
   font-family: "Roboto", sans-serif;
-  font-size: 36px;
+  font-size: 18px;
   line-height: 42px;
   font-weight: 800;
   color: #2E5C6A;
+  padding: 15px;
 }
 
 .section_four__slider {
@@ -773,6 +793,20 @@ footer ul li {
   margin-bottom: 15px;
   border-radius: 20px;
   max-width: 660px;
+}
+
+.section_one__Anna {
+  background-color: #F2E6D1;
+}
+.section_one__Anna .container_for_section_one__Anna {
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  margin-top: 338px;
+}
+
+.abu_bandit {
+  color: red;
 }
 
 a {

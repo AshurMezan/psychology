@@ -29,7 +29,7 @@
     font-family: $font_h;
     color: $color_footer;
     text-transform: uppercase;
-    margin-top: 60px;
+    margin-top: 50px;
     text-align: center;
     
     span {
@@ -47,6 +47,7 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
+    position: relative;
 
 
     button {
@@ -79,12 +80,25 @@
     background-size: contain; // Устанавливаем размер изображения /
 }
 
+.btn_left_for_slider {
+    position: absolute;
+    left: -45px;
+    top: 110px;
+
+}
+.btn_right_for_slider {
+    position: absolute;
+    right: -45px;
+    top: 110px;
+}
+
 .section_four__slaider_text {
     font-family: $font_h;
-    font-size: 36px;
+    font-size: 18px;
     line-height: 42px;
     font-weight: 800;
     color: #2E5C6A;
+    padding: 15px;
 }
 
 .section_four__slider {

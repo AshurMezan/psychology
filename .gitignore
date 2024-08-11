@@ -2,3 +2,12 @@
 .idea
 .log
 .tmp
+# Игнорировать папку node_modules и все её содержимое
+node_modules/
+
+# Игнорировать файл package.json
+package.json
+
+# Игнорировать файл package-lock.json
+package-lock.json
+

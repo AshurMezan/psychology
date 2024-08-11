@@ -68,6 +68,7 @@
     align-content: center;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
 
     .sclaider {
         display: flex;
@@ -111,6 +112,7 @@
         line-height: 42px;
         font-weight: 800;
         color: #2E5C6A;
+        padding: 15px;
     }
 
 
