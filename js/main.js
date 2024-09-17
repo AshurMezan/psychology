@@ -35,134 +35,138 @@
 
 { //Скрипт для слайдера в блоке section_four
 
-   const btn_left = document.querySelector('.btn_left');
-   const btn_right = document.querySelector('.btn_right');
-   const section_four__slaider_text = document.querySelector('.section_four__slaider_text');
-//    const twoArray = ["Психотерапевты, ведущие группу, сами тяжелобольные люди.", "Эти сеансы проводятся, только чтобы выманить из людей деньги и одурачить их.", "Психотерапевты во время сеансов холотропного дыхания нарочно делают людям больно.", "Во время сеансов холотропного дыхания люди сходят с ума, и навсегда остаются в психиатрической больнице.", "Во время сеансов холотропного дыхания люди регулярно умирают от остановки сердца и дыхания.", "Психотерапевты, ведущие группу, извращенцы, потому что хватают людей за тело и причиняют боль.", "После сеансов становится хуже, распадаются семьи.", "Частое глубокое дыхание приводит к отравлению организма.", "Это не лечение, а значит, не Божье дело."]
-const twoArray = [
-    "Елена: «Были частые ссоры с мужем, которого я постоянно ревновала. Дело доходило до битья посуды…. Возникли проблемы со здоровьем: беспокоили головные боли, нарушился сон, постоянно чувствовала раздражительность и усталость. Врачи в поликлинике поставили ВСД, дискинезию желчевыводящих путей. Прошла несколько групп. Стала спокойной, у нас большая дружная семья. Мужа люблю, конфликтов нет. В семье прекрасные отношения. Подрастают дети. Чувствую себя здоровой и помолодевшей...».",
-    "Екатерина: «До группы беспокоили сильные боли в животе. Поскольку у меня было 4 операции, считала себя безнадежной, готовилась к инвалидности и к смерти. После группы боли в животе исчезли, нормализовалась работа кишечника, похудела на 20 килограмм. Сейчас чувствую себя гораздо лучше, настроение хорошее. Получаю удовольствие от общения с родными. Работаю преуспевающим риэлтором в одном из агентств недвижимости».",
-    "Лариса: «Сегодня начинаю жить, дышать, любить, верить, надеяться, ждать, действовать на все 100%. Всем сердцем, полной грудью, всей душой, всеми клеточками организма, всей душой и телом. Жить, а не существовать (ярко, весело, тепло, светло, целенаправленно, всей душой и сердцем, а главное в союзе с умом). Пожалуй, начну сегодня 20.03.07 в 13:33».",
-    "Мария: «Заболела бронхиальной астмой в пожилом возрасте. Лечение давало лишь временное облегчение, несмотря на усилия лучших врачей города. Прошла группу у Бориса Юрьевича. Во время группы всплыли воспоминания далекого детства. Мне удалось наконец-то выплакать все обиды и всю боль. С тех пор, на протяжении многих лет — ни одного приступа удушья».",
-    "Евгений: «Очень мо-о-ощная методика. Вспомнил болезненное переживание 30-летней давности, вылезло чувство вины 8-летней давности. Осознал, как они на меня негативно влияли, улучшил отношения с близкими. Тело расслабилось от зажимов, благодаря упражнениям. Теперь делаю эти упражнения регулярно с детьми. Всем рекомендую периодически проходить группы и очищать психику от накопившегося клубка эмоциональных и рациональных противоречий».",
-    "Анастасия: «Годовые беседы со многими психологами и психотерапевтами только еще больше рационализировали проблемы, уводили в психосоматику. Благодаря группе смогла отпустить свои переживания, наконец-то иду вперед с высоко поднятой головой. Подходы к работе максимально этичные, но сюсюкать не будут… К хирургу мы идем с гнойником в надежде, что его вскроют и выпустят гной, после дадут рекомендации как все обработать и больше не доводить до такого, а не будут заговаривать его в надежде, что само рассосется. Так и здесь. Еще и поддержат спустя время, если вдруг что-то осталось невысказанным»."
-  ];
-  
+    const btn_left = document.querySelector('.btn_left');
+    const btn_right = document.querySelector('.btn_right');
+    const section_four__slaider_text = document.querySelector('.section_four__slaider_text');
+    //    const twoArray = ["Психотерапевты, ведущие группу, сами тяжелобольные люди.", "Эти сеансы проводятся, только чтобы выманить из людей деньги и одурачить их.", "Психотерапевты во время сеансов холотропного дыхания нарочно делают людям больно.", "Во время сеансов холотропного дыхания люди сходят с ума, и навсегда остаются в психиатрической больнице.", "Во время сеансов холотропного дыхания люди регулярно умирают от остановки сердца и дыхания.", "Психотерапевты, ведущие группу, извращенцы, потому что хватают людей за тело и причиняют боль.", "После сеансов становится хуже, распадаются семьи.", "Частое глубокое дыхание приводит к отравлению организма.", "Это не лечение, а значит, не Божье дело."]
+    const twoArray = [
+        "Елена: «Были частые ссоры с мужем, которого я постоянно ревновала. Дело доходило до битья посуды…. Возникли проблемы со здоровьем: беспокоили головные боли, нарушился сон, постоянно чувствовала раздражительность и усталость. Врачи в поликлинике поставили ВСД, дискинезию желчевыводящих путей. Прошла несколько групп. Стала спокойной, у нас большая дружная семья. Мужа люблю, конфликтов нет. В семье прекрасные отношения. Подрастают дети. Чувствую себя здоровой и помолодевшей...».",
+        "Екатерина: «До группы беспокоили сильные боли в животе. Поскольку у меня было 4 операции, считала себя безнадежной, готовилась к инвалидности и к смерти. После группы боли в животе исчезли, нормализовалась работа кишечника, похудела на 20 килограмм. Сейчас чувствую себя гораздо лучше, настроение хорошее. Получаю удовольствие от общения с родными. Работаю преуспевающим риэлтором в одном из агентств недвижимости».",
+        "Лариса: «Сегодня начинаю жить, дышать, любить, верить, надеяться, ждать, действовать на все 100%. Всем сердцем, полной грудью, всей душой, всеми клеточками организма, всей душой и телом. Жить, а не существовать (ярко, весело, тепло, светло, целенаправленно, всей душой и сердцем, а главное в союзе с умом). Пожалуй, начну сегодня 20.03.07 в 13:33».",
+        "Мария: «Заболела бронхиальной астмой в пожилом возрасте. Лечение давало лишь временное облегчение, несмотря на усилия лучших врачей города. Прошла группу у Бориса Юрьевича. Во время группы всплыли воспоминания далекого детства. Мне удалось наконец-то выплакать все обиды и всю боль. С тех пор, на протяжении многих лет — ни одного приступа удушья».",
+        "Евгений: «Очень мо-о-ощная методика. Вспомнил болезненное переживание 30-летней давности, вылезло чувство вины 8-летней давности. Осознал, как они на меня негативно влияли, улучшил отношения с близкими. Тело расслабилось от зажимов, благодаря упражнениям. Теперь делаю эти упражнения регулярно с детьми. Всем рекомендую периодически проходить группы и очищать психику от накопившегося клубка эмоциональных и рациональных противоречий»."
+    ];
 
-   let currentTextIndex = 0;
 
-   btn_right.addEventListener('click', () => {
-      currentTextIndex = (currentTextIndex + 1) % twoArray.length;
-      section_four__slaider_text.textContent = twoArray[currentTextIndex];
-  });
+    let currentTextIndex = 0;
 
-  btn_left.addEventListener('click', () => {
-      currentTextIndex = (currentTextIndex - 1 + twoArray.length) % twoArray.length;
-      section_four__slaider_text.textContent = twoArray[currentTextIndex];
-  });
-} 
+    btn_right.addEventListener('click', () => {
+        currentTextIndex = (currentTextIndex + 1) % twoArray.length;
+        section_four__slaider_text.textContent = twoArray[currentTextIndex];
+    });
 
-{
-const popupLinks = document.querySelectorAll('.popup-link');
-const body = document.querySelector('body');
-const lockPadding = document.querySelectorAll('.lock-padding');
-let unlock = true;
-const timeout = 800;
-
-if (popupLinks.length > 0) {
-    for (let index = 0; index < popupLinks.length; index++) {
-        const popupLink = popupLinks[index];
-        popupLink.addEventListener('click', function (e) {
-            const popupName = popupLink.getAttribute('href').replace('#', '');
-            const curentPopup = document.getElementById(popupName);
-            popupOpen(curentPopup);
-            e.preventDefault();
-        });
-    }
+    btn_left.addEventListener('click', () => {
+        currentTextIndex = (currentTextIndex - 1 + twoArray.length) % twoArray.length;
+        section_four__slaider_text.textContent = twoArray[currentTextIndex];
+    });
 }
 
-const popupCloseIcon = document.querySelectorAll('.close-popup');
-if (popupCloseIcon.length > 0) {
-    for (let index = 0; index < popupCloseIcon.length; index++) {
-        const el = popupCloseIcon[index];
-        el.addEventListener('click', function (e) {
-            popupClose(el.closest('.popup'));
-            e.preventDefault();
-        });
-    }
-}
+{ // Анимация для модального окна
+    const popupLinks = document.querySelectorAll('.popup-link');
+    const body = document.querySelector('body');
+    const lockPadding = document.querySelectorAll('.lock-padding');
+    let unlock = true;
+    const timeout = 800;
 
-function popupOpen(curentPopup) {
-    if (curentPopup && unlock) {
-        const popupActive = document.querySelector('.popup.open');
-        if (popupActive) {
-            popupClose(popupActive, false);
-        } else {
-            bodyLock();
+    if (popupLinks.length > 0) {
+        for (let index = 0; index < popupLinks.length; index++) {
+            const popupLink = popupLinks[index];
+            popupLink.addEventListener('click', function (e) {
+                const popupName = popupLink.getAttribute('href').replace('#', '');
+                const curentPopup = document.getElementById(popupName);
+                popupOpen(curentPopup);
+                e.preventDefault();
+            });
         }
-        curentPopup.classList.add('open');
-        curentPopup.addEventListener('click', function (e) {
-            if (!e.target.closest('.popup__content') && !e.target.closest('.container_for_registration')) {
-                popupClose(e.target.closest('.popup'));
+    }
+
+    const popupCloseIcon = document.querySelectorAll('.close-popup');
+    if (popupCloseIcon.length > 0) {
+        for (let index = 0; index < popupCloseIcon.length; index++) {
+            const el = popupCloseIcon[index];
+            el.addEventListener('click', function (e) {
+                popupClose(el.closest('.popup'));
+                e.preventDefault();
+            });
+        }
+    }
+
+    function popupOpen(curentPopup) {
+        if (curentPopup && unlock) {
+            const popupActive = document.querySelector('.popup.open');
+            if (popupActive) {
+                popupClose(popupActive, false);
+            } else {
+                bodyLock();
             }
-        });
-    }
-}
-
-function popupClose(popupActive, doUnlock = true) {
-    if (unlock) {
-        popupActive.classList.remove('open');
-        if (doUnlock) {
-            bodyUnlock();
+            curentPopup.classList.add('open');
+            curentPopup.addEventListener('click', function (e) {
+                if (!e.target.closest('.popup__content') && !e.target.closest('.container_for_registration')) {
+                    popupClose(e.target.closest('.popup'));
+                }
+            });
         }
     }
-}
 
-function bodyLock() {
-    const lockPaddingValue = window.innerWidth - document.querySelector('body').offsetWidth + 'px';
-    for (let index = 0; index < lockPadding.length; index++) {
-        const el = lockPadding[index];
-        el.style.paddingRight = lockPaddingValue;
+    function popupClose(popupActive, doUnlock = true) {
+        if (unlock) {
+            popupActive.classList.remove('open');
+            if (doUnlock) {
+                bodyUnlock();
+            }
+        }
     }
-    body.style.paddingRight = lockPaddingValue;
-    body.classList.add('lock');
 
-    unlock = false;
-    setTimeout(function () {
-        unlock = true;
-    }, timeout);
-}
-
-function bodyUnlock() {
-    setTimeout(function () {
+    function bodyLock() {
+        const lockPaddingValue = window.innerWidth - document.querySelector('body').offsetWidth + 'px';
         for (let index = 0; index < lockPadding.length; index++) {
             const el = lockPadding[index];
-            el.style.paddingRight = '0px';
+            el.style.paddingRight = lockPaddingValue;
         }
-        body.style.paddingRight = '0px';
-        body.classList.remove('lock');
-    }, timeout);
+        body.style.paddingRight = lockPaddingValue;
+        body.classList.add('lock');
 
-    unlock = false;
-    setTimeout(function () {
-        unlock = true;
-    }, timeout);
-}
-
-document.addEventListener('keydown', function (e) {
-    if (e.which === 27) {
-        const popupActive = document.querySelector('.popup.open');
-        popupClose(popupActive);
+        unlock = false;
+        setTimeout(function () {
+            unlock = true;
+        }, timeout);
     }
-});
 
+    function bodyUnlock() {
+        setTimeout(function () {
+            for (let index = 0; index < lockPadding.length; index++) {
+                const el = lockPadding[index];
+                el.style.paddingRight = '0px';
+            }
+            body.style.paddingRight = '0px';
+            body.classList.remove('lock');
+        }, timeout);
 
+        unlock = false;
+        setTimeout(function () {
+            unlock = true;
+        }, timeout);
+    }
 
+    document.addEventListener('keydown', function (e) {
+        if (e.which === 27) {
+            const popupActive = document.querySelector('.popup.open');
+            popupClose(popupActive);
+        }
+    });
 
 }
 
+{
+    const btnLeftForSliderInSectionFour = document.getElementById('btn_left_for_slider');
+    const btnRinghtForSliderInSectionFour = document.getElementById('btn_right_for_slider');
+    if(btnLeftForSliderInSectionFour) {
+        btnLeftForSliderInSectionFour.style.top = '210px';
+    }
+    if(btnRinghtForSliderInSectionFour) {
+        btnRinghtForSliderInSectionFour.style.top = '210px';
+    }
 
-
-
+}
 
 

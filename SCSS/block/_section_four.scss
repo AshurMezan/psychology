@@ -13,7 +13,7 @@
 .section_four__container {
     margin:  0 auto;
     max-width: 1155px;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 .section_four__content_one {
     font-size: 32px;
@@ -29,7 +29,7 @@
     font-family: $font_h;
     color: $color_footer;
     text-transform: uppercase;
-    margin-top: 50px;
+    margin-top: 10px;
     text-align: center;
     
     span {
@@ -40,7 +40,7 @@
 .section_four__container_for_slider {
     max-width: 1260px;
     background-color: $color_white;
-    height: 260px;
+    height: 420px;
     margin: 0 auto;
     border-radius: 20px;
     display: flex;
@@ -83,7 +83,7 @@
 .btn_left_for_slider {
     position: absolute;
     left: -45px;
-    top: 110px;
+    top: 120px;
 
 }
 .btn_right_for_slider {
@@ -94,11 +94,11 @@
 
 .section_four__slaider_text {
     font-family: $font_h;
-    font-size: 18px;
+    font-size: 36px;
     line-height: 42px;
     font-weight: 800;
     color: #2E5C6A;
-    padding: 15px;
+    padding: 20px;
 }
 
 .section_four__slider {
