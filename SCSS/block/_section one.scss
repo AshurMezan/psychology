@@ -1,3 +1,48 @@
-.abu_bandit {
-    color: red;
+.wrapper {
+    width: 100%;
+    position: relative;
+    background-color: $color_fon;
 }
+.container_for_section_one__Anna {
+    margin:  0 auto;
+    width: 1345px;
+    padding-top: 200px;
+    display: flex;
+    gap: 30px;
+    
+    
+    h1{
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 66px;
+        color: $color_chacolate;
+        font-family: $font_h;
+    }
+    h2{
+        margin-top: 40px;
+        font-family: $font_h;
+        font-weight: 700;
+        line-height: 63px;
+        color: $color_chacolate;
+        font-size: 64px;
+    }
+}
+.biografi__Anna p:first-child {
+    margin-top: 35px;
+}
+.biografi__Anna p:nth-child(2),
+.biografi__Anna p:nth-child(3) {
+    margin-top: 10px;
+}
+
+.biografi__Anna {
+    width: 572px;
+    height: 154px;
+    color: $color_chacolate;
+    font-family: $font_main;
+    font-size: 20px;
+    line-height: 22px;
+
+}
+
+

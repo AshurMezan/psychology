@@ -63,8 +63,51 @@ body {
   min-width: 1600px;
 }
 
-.abu_bandit {
-  color: red;
+.wrapper {
+  width: 100%;
+  position: relative;
+  background-color: #F2E6D1;
+}
+
+.container_for_section_one__Anna {
+  margin: 0 auto;
+  width: 1345px;
+  padding-top: 200px;
+  display: flex;
+  gap: 30px;
+}
+.container_for_section_one__Anna h1 {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 66px;
+  color: #4F4D4A;
+  font-family: "Roboto", sans-serif;
+}
+.container_for_section_one__Anna h2 {
+  margin-top: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 63px;
+  color: #4F4D4A;
+  font-size: 64px;
+}
+
+.biografi__Anna p:first-child {
+  margin-top: 35px;
+}
+
+.biografi__Anna p:nth-child(2),
+.biografi__Anna p:nth-child(3) {
+  margin-top: 10px;
+}
+
+.biografi__Anna {
+  width: 572px;
+  height: 154px;
+  color: #4F4D4A;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
 }
 
 a {
