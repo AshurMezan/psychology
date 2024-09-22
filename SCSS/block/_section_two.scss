@@ -1,0 +1,115 @@
+.section_two {
+    width: 100vw;
+    height: 1694px;
+    background-image: url('/img/sectionAnna/Vector.png');
+    // url('../img/sectionMain/sectionFive/imgForSectionFive.png');
+    background-repeat: no-repeat;
+}
+
+.position_element {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    color: $color_white;
+    background-color: $color_chacolate;
+    font-family: $font_main;
+    border-radius: 60px;
+    margin-top: 7px;
+    position: absolute;
+
+}
+
+.wrapper_for_position_element {
+    position: relative;
+}
+
+.elemetn_one {
+    width: 630px;
+    height: 158px;
+    padding: 18px 35px 25px 49px;
+    top: 190px;
+    left: 154px;
+    transform: rotate(354deg);
+}
+
+.elemetn_two {
+    width: 455px;
+    height: 141px;
+    padding: 28px 21px 30px 36px;
+    top: 227px;
+    left: 840px;
+    transform: rotate(7deg);
+}
+
+.elemetn_three {
+    left: 136px;
+    width: 590px;
+    height: 125px;
+    top: 409px;
+    padding: 22px 21px 29px 32px;
+    transform: rotate(2deg);
+}
+
+.elemetn_four {
+    left: 807px;
+    top: 535px;
+    width: 591px;
+    height: 90px;
+    padding: 18px 20px 20px 30px;
+    transform: rotate(354deg);
+}
+
+.elemetn_five {
+    left: 341px;
+    top: 679px;
+    width: 470px;
+    height: 90px;
+    padding: 19px 23px 23px 31px;
+    transform: rotate(354deg);
+}
+
+.elemetn_six {
+    left: 901.37px;
+    top: 749px;
+    width: 524px;
+    height: 105px;
+    padding: 23px 26px 20px 37px;
+    transform: rotate(6deg);
+}
+
+.element_seven {
+    width: 544px;
+    height: 137px;
+    top: 868px;
+    left: 247.38px;
+    padding: 21px 22px 27px 36px;
+    transform: rotate(350deg);
+}
+
+.element_eight {
+    width: 545px;
+    height: 87px;
+    top: 978px;
+    padding: 25px 22px 21px 36px;
+    right: 493px;
+    transform: rotate(7deg);
+}
+
+.element_nine {
+    width: 650px;
+    height: 156px;
+    top:1110px;
+    left: 230px;
+    padding: 25px 25px 25px 37px;
+    transform: rotate(7deg);
+}
+
+.element_ten {
+    top:1310px;
+    left: 930px;
+    width: 564px;
+    height: 115px;
+    padding: 20px 31px 24px 34px;
+    transform: rotate(359deg);
+
+}
