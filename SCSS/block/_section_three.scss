@@ -1,0 +1,26 @@
+.conten_in_section_three {
+    font-family: $font_h;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    color: $color_chacolate;
+}
+.section_three__conten_one {
+    width: 565px;
+    height: 45px;
+    position: absolute;
+    left: 298px;
+    top: -176px;
+    text-transform: uppercase;
+}
+.section_three__conten_two {
+    width: 613px;
+    height: 60px;
+    text-transform: uppercase;
+    position: absolute;
+    left: 696px;
+    top: -105px;
+}
+.wrapper_for_possition__conten_in_section_three {
+    position: relative;
+}

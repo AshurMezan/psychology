@@ -291,9 +291,9 @@ textarea {
 .element_eight {
   width: 545px;
   height: 87px;
-  top: 978px;
+  top: 1009px;
   padding: 25px 22px 21px 36px;
-  right: 493px;
+  left: 840px;
   transform: rotate(7deg);
 }
 
@@ -313,6 +313,97 @@ textarea {
   height: 115px;
   padding: 20px 31px 24px 34px;
   transform: rotate(359deg);
+}
+
+.conten_in_section_three {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #4F4D4A;
+}
+
+.section_three__conten_one {
+  width: 565px;
+  height: 45px;
+  position: absolute;
+  left: 298px;
+  top: -176px;
+  text-transform: uppercase;
+}
+
+.section_three__conten_two {
+  width: 613px;
+  height: 60px;
+  text-transform: uppercase;
+  position: absolute;
+  left: 696px;
+  top: -105px;
+}
+
+.wrapper_for_possition__conten_in_section_three {
+  position: relative;
+}
+
+.imag_for_section_four {
+  background-image: url("/img/sectionAnna/Vector2.png");
+  height: 860px;
+  background-repeat: no-repeat;
+}
+
+.section_four_content_one {
+  width: 457px;
+  height: 100px;
+  padding: 15px;
+  color: #FFFFFF;
+  background-color: #4F4D4A;
+  border-radius: 60px;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  position: absolute;
+  top: 103px;
+  left: 170px;
+  transform: rotate(348deg);
+}
+.section_four_content_one p {
+  margin-left: 20px;
+}
+
+.section_four_content_two {
+  color: #FFFFFF;
+  background-color: #4F4D4A;
+  border-radius: 60px;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 565px;
+  height: 154px;
+  padding: 25px;
+  left: 885px;
+  top: 227px;
+  position: absolute;
+  transform: rotate(7deg);
+}
+
+.section_four_content_three {
+  width: 630px;
+  position: absolute;
+  top: 540px;
+  left: 250px;
+  font-weight: bold;
+}
+
+.section_four_content_three_text {
+  font-family: "Comfortaa", sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  color: #4F4D4A;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding-bottom: 50px;
 }
 
 a {

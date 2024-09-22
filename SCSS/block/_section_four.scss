@@ -1,0 +1,63 @@
+.imag_for_section_four {
+    background-image: url('/img/sectionAnna/Vector2.png');
+    height: 860px;
+    background-repeat: no-repeat;
+}
+.section_four_content_one {
+    width: 457px;
+    height: 100px;
+    padding: 15px;
+    color: $color_white;
+    background-color: $color_chacolate;
+    border-radius: 60px;
+    font-family: $font_main;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    position: absolute;
+    top: 103px;
+    left: 170px;
+    transform: rotate(348deg);
+    
+    p {
+        margin-left: 20px;
+    }
+   
+}
+.section_four_content_two {
+    color: $color_white;
+    background-color: $color_chacolate;
+    border-radius: 60px;
+    font-family: $font_main;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 565px;
+    height: 154px;
+    padding: 25px;
+    left: 885px;
+    top: 227px;
+    position: absolute;
+    transform: rotate(7deg);
+
+}
+
+.section_four_content_three {
+    width: 630px;
+    position: absolute;
+    top: 540px;
+    left: 250px;
+    font-weight: bold;
+}
+
+.section_four_content_three_text {
+    font-family: $font_main;
+    font-size: 20px;    
+    line-height: 22px;
+    color: $color_chacolate;
+    text-transform: uppercase;
+    font-weight: 800;
+    padding-bottom: 50px;
+
+
+}
