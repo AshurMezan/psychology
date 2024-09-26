@@ -203,7 +203,7 @@ textarea {
 }
 
 .section_two {
-  width: 100vw;
+  width: 100%;
   height: 1694px;
   background-image: url("/img/sectionAnna/Vector.png");
   background-repeat: no-repeat;
