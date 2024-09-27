@@ -346,7 +346,7 @@ textarea {
 }
 
 .imag_for_section_four {
-  background-image: url("/img/sectionAnna/Vector2.png");
+  background-image: url("../img/sectionAnna/Vector2.png");
   height: 860px;
   background-repeat: no-repeat;
 }
