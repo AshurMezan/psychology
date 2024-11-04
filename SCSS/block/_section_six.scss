@@ -1,0 +1,34 @@
+.section_six {
+    width: 90%;
+    height: 475px;
+    background-image: url(/img/sectionBoris/last_line.png);
+    background-repeat: no-repeat; 
+    background-size: auto;
+    background-position: bottom center; 
+}
+.wrapper_for_section_six {
+    width: 1300px;
+    // height: 330px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $color_chacolate;
+    position: relative;
+    font-size: 20px;
+}
+
+.content_one_for_section_six {
+    top: -70px;
+    position: absolute;
+}
+
+.content_two_for_section_six {
+    position: absolute;
+    top: 35px;
+    left: 400px;
+}
+.content_three_for_section_six {
+    position: absolute;
+    top: 145px;
+    left: 496px;
+}

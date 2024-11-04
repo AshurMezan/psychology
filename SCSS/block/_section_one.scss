@@ -1,56 +1,49 @@
-.section_one__Anna {
-    padding-top: 700px;
+.section_one {
+  padding-top: 700px;
 }
 .wrapper {
-    width: 100%;
-    position: relative;
-    background-color: $color_fon;
-}
-.container_for_section_one__Anna {
-    margin:  0 auto;
-    width: 1345px;
-    padding-top: 100px;
-    display: flex;
-    gap: 30px;
-    z-index: 5;
-    position: absolute;
-    top: -5px;
-    left: 133px;
-    
-    
-    
-    h1{
-        font-weight: 400;
-        font-size: 64px;
-        line-height: 66px;
-        color: $color_chacolate;
-        font-family: $font_h;
-    }
-    h2{
-        margin-top: 40px;
-        font-family: $font_h;
-        font-weight: 700;
-        line-height: 63px;
-        color: $color_chacolate;
-        font-size: 64px;
-    }
-}
-.biografi__Anna p:first-child {
-    margin-top: 35px;
-}
-.biografi__Anna p:nth-child(2),
-.biografi__Anna p:nth-child(3) {
-    margin-top: 10px;
+  width: 100%;
+  position: relative;
+  background-color: $color_fon;
 }
 
-.biografi__Anna {
-    width: 572px;
-    height: 154px;
-    color: $color_chacolate;
-    font-family: $font_main;
+.wrapper_for_section_one {
+  margin: 0 auto;
+  width: 1345px;
+  padding-top: 100px;
+  display: flex;
+  gap: 30px;
+  z-index: 5;
+  position: absolute;
+  top: -5px;
+  left: 133px;
+
+  .main_title_for_specisal_Boris {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 66px;
+    color: #4f4d4a;
+    font-family: "Roboto", sans-serif;
+  }
+  h2 {
+    margin-top: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 63px;
+    color: #4F4D4A;
+    font-size: 64px;
+  }
+}
+.wrapper_for_text_content_for_section_one {
+    
+    color: #4F4D4A;
+    font-family: "Comfortaa", sans-serif;
     font-size: 20px;
     line-height: 22px;
-
+    margin-top: 65px;
 }
 
-
+.text_content_for_section_one {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
