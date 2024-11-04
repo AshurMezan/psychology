@@ -233,6 +233,7 @@ body {
 .wrapper_one_for_text_in_section_three p {
   width: 740px;
   font-weight: bold;
+  font-family: "Comfortaa", sans-serif;
 }
 
 .wrapper_two_for_text_in_section_three {
@@ -243,12 +244,13 @@ body {
 .wrapper_two_for_text_in_section_three p {
   width: 920px;
   font-weight: bold;
+  font-family: "Comfortaa", sans-serif;
 }
 
 .section_four {
   height: 1844px;
   width: 100%;
-  background-image: url(/img/sectionBoris/lineTwo.png);
+  background-image: url(../img/sectionBoris/lineTwo.png);
 }
 
 .wrapper_for_position {
@@ -432,7 +434,7 @@ textarea {
 .section_six {
   width: 90%;
   height: 475px;
-  background-image: url(/img/sectionBoris/last_line.png);
+  background-image: url(../img/sectionBoris/last_line.png);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: bottom center;
@@ -446,22 +448,23 @@ textarea {
   color: #4F4D4A;
   position: relative;
   font-size: 20px;
+  font-family: "Comfortaa", sans-serif;
 }
 
 .content_one_for_section_six {
-  top: -70px;
+  top: -60px;
   position: absolute;
 }
 
 .content_two_for_section_six {
   position: absolute;
-  top: 35px;
+  top: 47px;
   left: 400px;
 }
 
 .content_three_for_section_six {
   position: absolute;
-  top: 145px;
+  top: 190px;
   left: 496px;
 }
 
