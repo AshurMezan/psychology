@@ -5,13 +5,6 @@
 }
 
 .section_one_in_services {
-    display: flex; // Вот здесь проблема.
-    justify-content: flex-end;
-
-}
-
-
-.section_one_in_services {
     height: 1826px;
     background-image: url('../img/sectionServices/img_for_section_two.png');
     background-repeat: no-repeat;
@@ -21,13 +14,16 @@
 
 }
 .wrapper_for_section_one_in_services {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 250px;
+
     h1 {
         color: $color_footer;
         font-size: 128px;
         font-weight: bold;
         text-transform: uppercase;
         font-family: $font_h;
-        margin-right: -100px;
         margin-top: 160px;
     }
 
@@ -52,6 +48,22 @@
 }
 
 .wpapper_for_content_in_section_one_for_servises {
-    margin-top: 920px;
-    width: 690px;
+    margin-top: 360px;
+    margin-right: 170px;
+    display: flex;
+    justify-content: end;
+}
+.wrapper_for_paragraf {
+    margin-top: 70px;
+}
+.wpapper_for_content_in_section_one_for_servises .wrapper_for_paragraf p {
+    color:$color_white;
+    font-family: $font_main;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    &:nth-child(n+2) {
+        margin-top: 20px;
+    }
 }
