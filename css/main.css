@@ -215,6 +215,7 @@ textarea {
 
 .section_two_for_services {
   height: 800px;
+  margin-bottom: 140px;
 }
 
 .wrapper_for_section_two_for_services {
@@ -265,6 +266,7 @@ textarea {
 }
 
 .block_two_in_section_two {
+  z-index: 3;
   position: absolute;
   width: 1013px;
   height: 372px;
@@ -293,6 +295,86 @@ textarea {
   border: 3px solid #255765;
   border-radius: 40px;
   pointer-events: none;
+}
+
+.block_two_in_section_three {
+  width: 1260px;
+  height: 280px;
+  position: absolute;
+  top: 500px;
+  background-color: #93AEB9;
+  color: #FFFFFF;
+  border-radius: 40px;
+  padding: 30px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  font-size: 19px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.wrapper_for_content_in_block_two_in_section_three {
+  margin: 0 auto;
+}
+
+.section_three_for_services {
+  height: 1500px;
+  background-image: url("../img/sectionServices/legs.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wrapper_for_section_three {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  width: 785px;
+  height: 350px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.wrapper_for_section_three__title_one {
+  color: #255765;
+  font-size: 40px;
+  line-height: 39.12px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.wrapper_for_section_three__title_two {
+  color: #FFFFFF;
+  font-size: 64px;
+  margin-top: 40px;
+  line-height: 19.56px;
+  text-align: center;
+}
+
+.wrapper_for_section_three__title_three {
+  text-align: center;
+  color: #255765;
+  font-size: 20px;
+  line-height: 19.56px;
+  margin-top: 200px;
+}
+
+.wrapper_two_for_section_three {
+  width: 1108px;
+  margin: 595px auto 0 auto;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 23.47px;
+  font-family: "Roboto", sans-serif;
+  color: #255765;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper_two_for_section_three ol li {
+  margin: 20px 0 20px 0;
 }
 
 a {

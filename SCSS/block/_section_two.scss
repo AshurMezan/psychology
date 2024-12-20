@@ -1,5 +1,6 @@
 .section_two_for_services {
     height: 800px;
+    margin-bottom: 140px;
 }
 
 .wrapper_for_section_two_for_services {
@@ -52,6 +53,7 @@
 }
 
 .block_two_in_section_two {
+    z-index: 3;
     position: absolute; // Устанавливаем абсолютное позиционирование для перемещения
     width: 1013px;
     height: 372px;
@@ -83,4 +85,28 @@
         pointer-events: none;
     }
 
+}
+
+.block_two_in_section_three {
+    width: 1260px;
+    height: 280px;
+    position: absolute;
+    top: 500px;
+    background-color: $color_gray;
+    color: $color_white;
+    border-radius: 40px;
+    padding: 30px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-family: $font_h;
+    font-weight: 700;
+    line-height: 34px;
+    
+}
+.wrapper_for_content_in_block_two_in_section_three {
+    margin: 0 auto;
+    
 }
