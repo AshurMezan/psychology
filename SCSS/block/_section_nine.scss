@@ -1,0 +1,100 @@
+.section_nine_for_services {
+    height: 700px;
+}
+.wrapper_for_section_nine_for_services {
+    position: relative;
+}
+
+.block_one__in_section_nine_for_services {
+    z-index: 3;
+    position: absolute; // Устанавливаем абсолютное позиционирование для перемещения
+    width: 1013px;
+    height: 372px;
+    background-color: $color_white;
+    border-radius: 40px;
+    border: 3px solid transparent;
+    top: -226px;
+    left: -142px;
+    transform: rotate(356deg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    color: #255765;
+    font-family: $font_main;
+    font-weight: 700;
+    margin-left: 300px;
+
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        border: 3px solid #255765;
+        border-radius: 40px;
+        pointer-events: none;
+    }
+
+    p:nth-of-type(2) {
+        margin-top: 20px;
+    }
+
+}
+
+
+.block_one__in_section_nine_for_services { 
+    p {
+        font-size: 20px;
+    }
+    span {
+        font-size: 24px;
+    }
+}
+
+.block_two_in_section_nine_for_services {
+    z-index: 3;
+    position: absolute; // Устанавливаем абсолютное позиционирование для перемещения
+    width: 1013px;
+    height: 372px;
+    background-color: $color_white;
+    border-radius: 40px;
+    border: 3px solid transparent;
+    top: 229px;
+    left: 60px;
+    transform: rotate(364deg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    color: #255765;
+    font-family: $font_main;
+    font-weight: 700;
+    margin-left: 300px;
+    font-size: 20px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+        border: 3px solid #255765;
+        border-radius: 40px;
+        pointer-events: none;
+    }
+
+    p:nth-child(1) {
+        font-size: 24px;
+      }
+
+      p:nth-child(2) {
+        margin: 20px 0;
+      }
+}
+
