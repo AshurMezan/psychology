@@ -89,7 +89,8 @@
 
 .block_two_in_section_three {
     width: 1260px;
-    height: 280px;
+    // height: 280px;
+    height: 325px;
     position: absolute;
     top: 500px;
     background-color: $color_gray;
@@ -103,10 +104,19 @@
     text-transform: uppercase;
     font-family: $font_h;
     font-weight: 700;
-    line-height: 34px;
     
 }
 .wrapper_for_content_in_block_two_in_section_three {
     margin: 0 auto;
     
+    h2:nth-of-type(2) {
+        margin: 30px 0px 30px 0px;
+    }
+}
+
+.wrapper_for_content_in_block_two_in_section_three {
+    
+    h2:nth-of-type(1) {
+        line-height: 38px;
+    }
 }

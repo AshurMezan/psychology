@@ -122,7 +122,7 @@ body {
   font-family: "Comfortaa", sans-serif;
   font-weight: bold;
   font-size: 20px;
-  line-height: 20px;
+  line-height: 28px;
   text-transform: uppercase;
 }
 .wpapper_for_content_in_section_one_for_servises .wrapper_for_paragraf p:nth-child(n+2) {
@@ -300,7 +300,7 @@ textarea {
 
 .block_two_in_section_three {
   width: 1260px;
-  height: 280px;
+  height: 325px;
   position: absolute;
   top: 500px;
   background-color: #93AEB9;
@@ -314,11 +314,17 @@ textarea {
   text-transform: uppercase;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
-  line-height: 34px;
 }
 
 .wrapper_for_content_in_block_two_in_section_three {
   margin: 0 auto;
+}
+.wrapper_for_content_in_block_two_in_section_three h2:nth-of-type(2) {
+  margin: 30px 0px 30px 0px;
+}
+
+.wrapper_for_content_in_block_two_in_section_three h2:nth-of-type(1) {
+  line-height: 38px;
 }
 
 .section_three_for_services {

@@ -223,7 +223,7 @@ body {
   top: 1853px;
   left: 166px;
   text-transform: uppercase;
-  text-align: justify;
+  /* text-align: justify; */
   color: #4F4D4A;
 }
 
