@@ -70,12 +70,9 @@
       .specialistInHeader:hover>ul,
       .specialistInFooter:hover>ul {
         opacity: 1;
-        z-index: 5;
+        z-index: 6;
       }
-      .show:hover {
-        opacity: 1;
-        z-index: 5;
-      }
+
     </style>
   </head>
 
@@ -319,7 +316,12 @@
             <ul>
               <li><a href="index.html">Главная</a></li>
               <li><a href="services.html">Услуги</a></li>
-              <li><a href="specialBoris.html">Специалисты</a></li>
+              <li class="specialistInFooter"><a href="#">Специалисты</a>
+                <ul class="menuForSpecialistInFooter">
+                  <li><a href="specialistAnna.html">Анна Приленская</a></li>
+                  <li><a href="specialBoris.html">Борис Приленский</a></li>
+                </ul>
+              </li>
             </ul>
             <button><a href="#popup" class="popup-link">Записаться</a></button>
           </div>
