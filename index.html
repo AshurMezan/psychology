@@ -33,27 +33,40 @@
   <link rel="stylesheet" href="css/home page.min.css" />
   <title>Академия психологии и психотерапии</title>
   <style>
-    .menuForSpecialist {
+    .menuForSpecialistInheader {
       position: absolute;
       display: flex;
       flex-direction: column;
-      background-color: black;
+      background-color: #93aeb9;
       gap: 10px;
       width: 220px;
-      text-align: center;
+      text-align: left;
       padding: 20px;
-      left: -40px;
+      left: -13px;
       border-radius: 10px;
       top: 36px;
       opacity: 0;
       gap: 20px !important;
     }
-    .testOne {
+
+    .specialistInFooter,
+    .specialistInHeader  {
       position: relative;
     }
-    .testOne:hover > ul {
-      opacity: 1;
 
+    .menuForSpecialistInFooter {
+      position: absolute;
+      left: 165px;
+      width: 210px;
+      display: flex;
+      flex-direction: column;
+      top: -10px;
+      opacity: 0;
+    }
+
+    .specialistInHeader:hover>ul,
+    .specialistInFooter:hover>ul {
+      opacity: 1;
     }
   </style>
 </head>
@@ -68,11 +81,10 @@
             <ul>
               <li><a href="#">Главная</a></li>
               <li><a href="services.html">Услуги</a></li>
-              <!-- <li><a href="specialistAnna.html">Специалисты</a></li> -->
-              <li class="testOne">Специалисты
-                <ul class="menuForSpecialist">
-                  <li class="testTwo"><a href="specialistAnna.html">Анна Приленская</a></li>
-                  <li class="testTwo"><a href="specialBoris.html">Борис Приленский</a></li>
+              <li class="specialistInHeader">Специалисты
+                <ul class="menuForSpecialistInheader">
+                  <li><a href="specialistAnna.html">Анна Приленская</a></li>
+                  <li><a href="specialBoris.html">Борис Приленский</a></li>
                 </ul>
               </li>
             </ul>
@@ -301,7 +313,12 @@
           <ul>
             <li><a href="index.html">Главная</a></li>
             <li><a href="services.html">Услуги</a></li>
-            <li><a href="specialistAnna.html">Специалисты</a></li>
+            <li class="specialistInFooter">Специалисты
+              <ul class="menuForSpecialistInFooter">
+                <li><a href="specialistAnna.html">Анна Приленская</a></li>
+                <li><a href="specialBoris.html">Борис Приленский</a></li>
+              </ul>
+            </li>
           </ul>
           <button><a href="#popup" class="popup-link">Записаться</a></button>
         </div>
